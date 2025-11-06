@@ -7,4 +7,4 @@ uppy.use(Dashboard<Meta,Body>)
 
 const resultGetPlugin = uppy.getPlugin<Dashboard<Meta, Body>>('Dashboard')?.openModal()
 
-console.log(resultGetPlugin)
+console.log("log get plugin result -->", resultGetPlugin)
